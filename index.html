@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Bug reporting intro</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/vm.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/github.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<blockquote><p>"There's red everywhere and I haven't got a sandwich."</p></blockquote>
+<aside class="notes">
+<p>Talking about bugs.</p>
+</aside>
+				</section>
+				<section>
+<h2>You should report bugs<span class="fragment">, well</span></h2>
+<aside class="notes">
+<p>Report as soon as you encounter the bug.</p>
+<p>But important to get past your immediate goal having been interrupted.</p>
+<p>As the bug report needs to make sense to other people.</p>
+</aside>
+				</section>
+				<section>
+<h3>Why</h3>
+<aside class="notes">
+<p>Sidestepping the effectiveness of getting bugs fixed for now.</p>
+</aside>
+				</section>
+				<section>
+<ul>
+<li>triage</li>
+<li>followup</li>
+</ul>
+<aside class="notes">
+<p>Will we die without immediate action?</p>
+<p>Can we effect a fix when returning later?</p>
+</aside>
+				</section>
+				<section>
+<h3>What</h3>
+<aside class="notes">
+<p>What goes into a bug report.</p>
+</aside>
+				</section>
+				<section>
+<ul>
+<li>steps to reproduce</li>
+<li>actual</li>
+<li>expected</li>
+</ul>
+<aside class="notes">
+<p>Three things to put in every bug report.</p>
+</aside>
+				</section>
+				<section>
+<p>Also context/extra details as needed.</p>
+<aside class="notes">
+<p>What version of the software, operating system, anything else noticed.</p>
+</aside>
+				</section>
+				<section>
+<h3>Example</h3>
+<aside class="notes">
+<p>One to look at.</p>
+</aside>
+				</section>
+				<section>
+<h4>Steps</h4>
+<ul>
+<li>Open cupboard.</li>
+<li>Take jar of strawberry jam.</li>
+<li>Unscrew lid of jam.</li>
+</ul>
+<aside class="notes">
+<p>Revealing earlier mysteries.</p>
+</aside>
+				</section>
+				<section>
+<h4>Actual</h4>
+<p>Jam is all over the floor.</p>
+				</section>
+				<section>
+<h4>Expected</h4>
+<p>Jar is open and jam is ready to be spread.</p>
+				</section>
+				<section>
+<h2>Exercise</h2>
+<aside class="notes">
+<p>Pick a piece of software you've noticed an issue with.</p>
+<p>Go through the steps of recording a bug.</p>
+<p>Share bug report.</p>
+</aside>
+				</section>
+				<section>
+<h2>Discussion</h2>
+<aside class="notes">
+<p>Go through one of two of the reports. Do we understand the steps?</p>
+</aside>
+				</section>
+				<section>
+<ul>
+<li><a href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html">How to Report Bugs Effectively</a> Simon&nbsp;Tatham</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines">Bug writing guidelines</a> Mozilla</li>
+</ul>
+<aside class="notes">
+<p>Extra resources on bug reporting.</p>
+</aside>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				transition: 'slide',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
